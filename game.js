@@ -5,7 +5,7 @@ var wordBank = [
 ];
 //function to choose random word from wordbank
 var randomizeWord = function () {
-    return wordBank [Math.floor(Math.random() * wordBank.length)];
+    return word [Math.floor(Math.random() * wordBank.length)];
 };
 
 module.exports = randomizeWord;

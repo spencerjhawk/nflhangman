@@ -16,6 +16,7 @@ var chosenWord = function(word, inputChoice) {
             }
         }
     };
+
     this.check = function(guessedLetter) {
         var lower = guessedLetter.toLowerCase();
         var upper = guessedLetter.toUpperCase();
