@@ -8,7 +8,7 @@ var chosenWord = function(word, inputChoice) {
     this.inputChoice = inputChoice;
     this.createBlanks = function() {
         for (var i = 0; i < this.word; i++) {
-            var newLet = new letter(this.word[i]);
+            var newLet = new letterBlanks(this.word[i]);
             if (this.word[i].valueOf() !== " ") {
                 this.lets.push(newLet.blank());
             } else {
